@@ -80,7 +80,7 @@ task :brews do
   sh "brew upgrade"
   %w[git mr jq ack openssl tree ucspi-tcp readline rbenv ruby-build
     python python3 erlang tsung nmap sqlmap ngrep node mc
-    reattach-to-user-namespace htop rlwrap weechat rbenv-gem-rehash
+    reattach-to-user-namespace htop rlwrap
     wget tmux elixir elixir-build].each do |r|
     brew r
   end
